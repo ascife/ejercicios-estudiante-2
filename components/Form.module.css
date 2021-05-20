@@ -1,0 +1,105 @@
+.center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  width: 400px;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  background-color: #fff;
+  box-shadow: 0px 30px 50px rgba(150, 150, 150, 0.1);
+}
+
+.header {
+  width: calc(100% - 64px);
+  padding: 24px 32px;
+  font-weight: 700;
+  font-size: 18px;
+  border-bottom: 1px #ddd solid;
+}
+
+.header .close {
+  right: 24px;
+  position: absolute;
+}
+
+.header .close i {
+  color: #999;
+  font-size: 20px;
+}
+
+.body {
+  width: calc(100% - 64px);
+  padding: 24px 32px;
+  padding-bottom: 0px;
+}
+
+.footer {
+  width: calc(100% - 64px);
+  display: flex;
+  padding: 24px 32px;
+  padding-top: 0px;
+  justify-content: flex-end;
+}
+
+.field {
+  width: 100%;
+  display: flex;
+  margin-bottom: 40px;
+  flex-direction: column;
+}
+
+.field input {
+  width: 100%;
+  padding: 8px 0px;
+  border-bottom: 1px #ddd solid;
+}
+
+.field span {
+  font-size: 14px;
+  color: #f00;
+}
+
+.field_disabled {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+.field_disabled input {
+  width: 100%;
+  padding: 12px 0px;
+  text-transform: capitalize;
+}
+
+.label {
+  font-weight: 800;
+}
+
+.checkBox, .checkBox_active {
+  color: #999;
+  font-weight: 600;
+  margin-top: 12px;
+  padding: 8px 12px;
+  margin-right: 12px;
+  border-radius: 5px;
+}
+
+.checkBox_active {
+  color: #514;
+  border: 1px #514 solid;
+}
+
+.checkBoxes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.variable {
+  display: none;
+}
